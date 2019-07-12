@@ -1,0 +1,43 @@
+.time-container {
+    align-items: center;
+}
+.time-inner-container {
+    display: inline-block;
+}
+.time-digits {
+    font-size: 4em;
+}
+.time-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+    
+}
+.but{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+
+   
+}
+button{
+    border-radius: 8px;
+}
+ button[type=submit]:hover
+{
+    background: rgb(149, 250, 149);
+    border-radius: 5px;
+
+   
+
+
+}
+ button[type=reset]:hover{
+    background: rgb(235, 63, 129);
+    border-radius: 5px;
+
+} 
+
